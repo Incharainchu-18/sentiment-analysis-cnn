@@ -1,32 +1,37 @@
-# Sentiment Analysis using CNN
+Sentiment Analysis using CNN
 
-## 📌 Overview
-This project predicts whether a movie review is Positive or Negative using Convolutional Neural Networks (CNN).
+A deep-learning based NLP application that classifies movie reviews as **Positive** or **Negative** using a 1D Convolutional Neural Network (CNN).
 
----
+Overview
 
-## 🚀 Features
-- Deep Learning based sentiment analysis
-- CNN architecture
-- Streamlit web application
-- Real-time prediction
-- Confidence score visualization
+This project uses the **IMDB movie review dataset** provided by TensorFlow/Keras to train a binary sentiment classifier.
 
----
+The trained model is exposed through:
 
-## 🛠 Technologies Used
-- Python
-- TensorFlow
-- Keras
-- Streamlit
-- NumPy
-- Plotly
+-  Streamlit web application
+-  Command-line prediction
+-  Training accuracy visualization
+-  Confidence score visualization
 
----
+Model Architecture
 
-## ▶️ Run Project
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
+text
+Movie Review
+    ↓
+IMDB Word Encoding
+    ↓
+Sequence Padding
+    ↓
+Embedding Layer
+    ↓
+1D Convolution
+    ↓
+Global Max Pooling
+    ↓
+Dense Layer
+    ↓
+Dropout
+    ↓
+Sigmoid Output
+    ↓
+Positive / Negative
