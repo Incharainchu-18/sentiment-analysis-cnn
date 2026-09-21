@@ -110,22 +110,26 @@ Convolutional Neural Networks (CNN)
 ⚙️ Installation
 1. Clone the repository
 git clone https://github.com/Incharainchu-18/sentiment-analysis-cnn.git
+
 2. Navigate to the project
 cd sentiment-analysis-cnn
+
 3. Create a virtual environment
 python -m venv .venv
-4. Activate the environment
 
-Windows:
+4. Activate the environment
+**Windows:**
 
 .venv\Scripts\activate
 
-Linux / macOS / GitHub Codespaces:
+**Linux / macOS / GitHub Codespaces:**
 
 source .venv/bin/activate
-5. Install dependencies
+
+**5. Install dependencies**
 pip install -r requirements.txt
-▶️ Run the Application
+
+**6. Run the Application**
 
 Start the Streamlit application:
 
@@ -146,6 +150,7 @@ models/sentiment_cnn_model.keras
 The training accuracy plot will be saved to:
 
 plots/training_accuracy.png
+
 📚 Dataset
 
 This project uses the IMDB Large Movie Review Dataset provided through TensorFlow/Keras.
@@ -157,8 +162,8 @@ The dataset contains:
 Binary sentiment labels
 Positive
 Negative
-💡 Key Learning Outcomes
 
+💡 Key Learning Outcomes
 Through this project, I worked with:
 
 Natural Language Processing
@@ -171,8 +176,9 @@ Model evaluation
 TensorFlow/Keras
 Streamlit deployment concepts
 Git and GitHub
-🔮 Future Improvements
 
+
+🔮 Future Improvements
 Possible improvements include:
 
 Using more advanced NLP preprocessing
@@ -181,6 +187,7 @@ Hyperparameter tuning
 Adding model confidence visualization
 Deploying the Streamlit application publicly
 Experimenting with transformer-based models
+
 👩‍💻 Author
 
 Incharainchu-18
